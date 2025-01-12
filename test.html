@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Schedule Table</title>
+  <style>
+    /* General table styling */
+    .styled-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 18px;
+        font-family: Arial, sans-serif;
+        text-align: left;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Table header styling */
+    .styled-table thead tr {
+        background-color: #009879;
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+
+    /* Table body styling */
+    .styled-table th, .styled-table td {
+        padding: 12px 15px;
+        border: 1px solid #ddd;
+    }
+
+    /* Table row hover effect */
+    .styled-table tbody tr {
+        border-bottom: 1px solid #ddd;
+    }
+
+    .styled-table tbody tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+    }
+
+    .styled-table tbody tr:hover {
+        background-color: #f1f1f1;
+        cursor: pointer;
+    }
+
+    /* Responsive design */
+    @media (max-width: 768px) {
+        .styled-table {
+            font-size: 14px;
+        }
+        .styled-table th, .styled-table td {
+            padding: 10px 8px;
+        }
+    }
+  </style>
+</head>
+<body>
+  <table class="styled-table">
+    <thead>
+      <tr>
+        <th>Time</th>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Wed</th>
+        <th>Thu</th>
+        <th>Fri</th>
+        <th>Sat</th>
+        <th>Sun</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>7:00 - 8:00 AM</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Software Engineering 2 Lab</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>8:00 - 9:00 AM</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Software Engineering 2 Lab</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>9:00 - 10:00 AM</td>
+        <td></td>
+        <td></td>
+        <td>Modeling and Simulation Lec</td>
+        <td></td>
+        <td></td>
+        <td>Software Engineering 2 Lab</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>10:00 - 11:00 AM</td>
+        <td></td>
+        <td></td>
+        <td>Modeling and Simulation Lec</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>11:30 AM - 12:00 PM</td>
+        <td></td>
+        <td></td>
+        <td>Ethics</td>
+        <td></td>
+        <td></td>
+        <td>Ethics</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>12:00 - 1:00 PM</td>
+        <td></td>
+        <td></td>
+        <td>Ethics</td>
+        <td></td>
+        <td></td>
+        <td>Ethics</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>1:00 - 2:00 PM</td>
+        <td>Operating Systems Lec</td>
+        <td></td>
+        <td>Operating Systems Lab</td>
+        <td>Operating Systems Lec</td>
+        <td>Modeling and Simulation Lab</td>
+        <td>CS Elective 3 Lab</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>2:00 - 3:00 PM</td>
+        <td>Operating Systems Lec</td>
+        <td></td>
+        <td>Operating Systems Lab</td>
+        <td>Operating Systems Lec</td>
+        <td>Modeling and Simulation Lab</td>
+        <td>CS Elective 3 Lab</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>3:00 - 4:00 PM</td>
+        <td></td>
+        <td></td>
+        <td>Operating Systems Lab</td>
+        <td></td>
+        <td>Modeling and Simulation Lab</td>
+        <td>CS Elective 3 Lab</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>4:00 - 5:00 PM</td>
+        <td>Thesis 1</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>5:00 - 6:00 PM</td>
+        <td>Thesis 1</td>
+        <td></td>
+        <td>Software Engineering 2 Lec</td>
+        <td></td>
+        <td>CS Elective 3</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>6:00 - 7:00 PM</td>
+        <td>Thesis 1</td>
+        <td></td>
+        <td>Software Engineering 2 Lec</td>
+        <td></td>
+        <td>CS Elective 3</td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
